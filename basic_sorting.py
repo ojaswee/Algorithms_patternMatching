@@ -29,7 +29,7 @@ def selectionSort(arr):
 #insertion sort
 def insertionSort(arr):
     size = len(arr)
-    for i in range(0,size-1):
+    for i in range(0,size):
         minValue=arr[i]
         minIndex = i
         while minIndex > 0 and arr[minIndex - 1] > minValue:
