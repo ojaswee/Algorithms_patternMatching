@@ -9,7 +9,7 @@ def bubbleSort(arr):
                 temp = arr[i+1]
                 arr[i+1] = arr[i]
                 arr[i] = temp
-    return arr
+    print 'Bubble sort:', arr
 
 #selection sort
 def selectionSort(arr):
@@ -24,14 +24,27 @@ def selectionSort(arr):
             temp = arr[j]
             arr[j]= arr[minIndex]
             arr[minIndex] = temp
-    return arr
+    print 'Selection sort:', arr
 
+#insertion sort
+def insertionSort(arr):
+    size = len(arr)
+    for i in range(0,size-1):
+        minValue=arr[i]
+        minIndex = i
+        while minIndex > 0 and arr[minIndex - 1] > minValue:
+            arr[minIndex] = arr[minIndex - 1]
+            minIndex = minIndex - 1
+        arr[minIndex] = minValue
+    print 'Insertion sort:', arr
 
-sort = [3, 6, 1, 0, 11, 67, 9, 5, 52]
-print 'Given:', sort
-bubble = bubbleSort(sort)
-print 'Bubble:',bubble
+# Entry point for program execution
+sortB = [3, 6, 1, 0, 11, 67, 9, 5, 52]
+print 'Given:', sortB
+bubbleSort(sortB)
 
-sort = [3, 6, 1, 0, 11, 67, 9, 5, 52]
-selection =selectionSort(sort)
-print 'Selection:',selection
+sortS = [3, 6, 1, 0, 11, 67, 9, 5, 52]
+selectionSort(sortS)
+
+sortI = [3, 6, 1, 0, 11, 67, 9, 5, 52]
+insertionSort(sortI)
