@@ -51,10 +51,8 @@ def merge(a,b):
         myList += a
     return myList
 
-# Code for merge sort
-
+# First partition array into individual elements
 def mergesort(Arr):
-    # First partition array into individual elements
     size = len(Arr)
     if size <= 1:
         return Arr
@@ -73,4 +71,4 @@ print 'Quick Sort:', qS
 mS = [3, 1, 9, 0, 12, 90, 45, 65]
 # print 'Merge Sort:'
 mS = mergesort(mS)
-print 'Merge Sort:',mS
+print 'Merge Sort:', mS
