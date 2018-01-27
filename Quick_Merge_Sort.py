@@ -30,7 +30,7 @@ def partition_qS(Arr,left, right):
 
 # ----------------------Merge Sort -----------------
 # in merge sort we first divide the array into individual elements
-# compare this individual items and store then n temporary arrays
+# compare this individual items and store them in new arrays
 
 def merge(a,b):
     # create a new List
