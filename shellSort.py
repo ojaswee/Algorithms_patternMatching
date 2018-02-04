@@ -1,7 +1,7 @@
 '''
 Shell sort is modification to insertion sort
 we just compare 2 elements in a gap then rearrange them
-time complexity = O(n^2)
+Time complexity = O(n^2)
 '''
 
 def shellSort(Arr):
@@ -16,7 +16,7 @@ def shell_Array(Arr, gap):
             temp = Arr[i]
             Arr[i]= Arr[space]
             Arr[space]= temp
-            print Arr
+            # print Arr
         i+=1
         space = i + gap
 
@@ -27,4 +27,4 @@ def shell_Array(Arr, gap):
 shell=[12, 13, 42, 103, 89, 8, 11, 19]
 print 'Unsorted Array:', shell
 shellSort(shell)
-# print 'Shell Sort:', shell
+print 'Shell Sort:', shell
