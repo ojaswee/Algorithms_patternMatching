@@ -4,18 +4,32 @@
 3)within container we need to sort all the elemets
 '''
 
+import time
+import random
 
-def sort_bucket(A,left, right):
-    size = right-left+1
-    j = 0
-    for i in range(0, size):
-        temp = A[i]
-        for j in range(i-1,-2,-1):
-            if (temp<A[j]):
-                A[j+1]=A[j]
-            else: break
-        A[j+1] = temp
-    # print 'Insertion Sort:',A
+def sort_bucket(Arr,left, right):
+    lower = left
+    pivot = Arr[left]
+    upper = right
+    while (lower<upper):
+        while pivot<Arr[upper] and lower < upper:
+            upper -= 1
+        if (pivot>Arr[upper]):
+            Arr[lower] = Arr[upper]
+            lower += 1
+        while (pivot>= Arr[lower]) and lower < upper:
+            lower +=1
+        if (pivot< Arr[lower]):
+            Arr[upper]= Arr[lower]
+            upper -=1
+
+    Arr[lower] = pivot
+    if (left<lower-1):
+        sort_bucket(Arr,left,lower-1)
+    if (upper+1 < right):
+        sort_bucket(Arr, upper+1,right)
+
+#----------------------------------------------
 
 def bucketSort(Arr, n=5):
     maxVal = max (Arr)
@@ -45,23 +59,33 @@ def bucketSort(Arr, n=5):
 
     temp_Arr= sorted(temp_Arr, key=lambda x: (x[0]))
     Arr = [i[1] for i in temp_Arr]
-    print count_elements, Arr
+    # print count_elements, Arr
 
     # for i in range (len(Arr)):
     start = 0
     for j in range(bucket):
         if j == 0 and count_elements[j]>0:
             sort_bucket(Arr, 0, count_elements[j])
-            print 0,count_elements[j]-1
+            # print 0,count_elements[j]-1
         elif j >0 and count_elements[j]>1:
             end = start + count_elements[j] -1
-            print start, end
+            # print start, end
             sort_bucket(Arr,start, end)
         start += count_elements[j]
     return Arr
 
-'''801 not printing in correct order'''
-bSort= [800,170, 45, 90, 24, 2,855, 900, 605, 66, 801]
-print 'Unsorted:', bSort
-bSort= bucketSort(bSort)
-print bSort
+# bSort= [800,170, 45, 90, 24, 2,855, 900, 605, 66, 801]
+# print 'Unsorted:', bSort
+# bSort= bucketSort(bSort)
+# print bSort
+
+
+start = time.time()
+for j in range(100): # loop 100 times
+    bSort = []
+    for i in range(50000):  # elements in array
+        bSort.append(random.randrange(0,1000))
+    bucketSort(bSort)
+end = time.time()
+t_time =(end - start)
+print 'Bucket time:',t_time

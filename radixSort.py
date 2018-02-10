@@ -4,6 +4,8 @@ First sort the number by unit digit then tens then hundreds and so on
 This soring uses single Linked List
 '''
 from llist import sllist,sllistnode
+import time
+import random
 
 def radixSort(Arr):
     #find max value in the array
@@ -47,7 +49,17 @@ def collect(Arr, ll):
     # print Arr
     return Arr
 
-rSort= [170, 45, 75, 90, 802, 24, 2, 66]
-print 'Unsorted:', rSort
-radixSort(rSort)
-print rSort
+# rSort= [170, 45, 75, 90, 802, 24, 2, 66]
+# print 'Unsorted:', rSort
+# radixSort(rSort)
+# print rSort
+
+start = time.time()
+for j in range(100): # loop 100 times
+    rSort = []
+    for i in range(50000):  # elements in array
+        rSort.append(random.randrange(0,1000000))
+    radixSort(rSort)
+end = time.time()
+t_time =(end - start)
+print 'Radix time:',t_time

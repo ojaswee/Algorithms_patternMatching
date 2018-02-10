@@ -1,5 +1,7 @@
+import time
+import random
 
-#Bubble is basic sorting algorithm which sorts by
+# Bubble is basic sorting algorithm which sorts by
 #conparing two consecutive elements in an array
 
 def swap(x, y):
@@ -38,16 +40,19 @@ def selection(A):
 
 def insertion(A):
     size = len(A)
-    j = 0
     for i in range(1, size):
+        j = i-1
         temp = A[i]
-        for j in range(i-1,-2,-1):
+        while j in range(0,size):
             if (temp<A[j]):
                 A[j+1]=A[j]
+                j-=1
             else: break
         A[j+1] = temp
-    print 'Insertion Sort:',A
+    # print 'Insertion Sort:',A
 
+#--------------------------------------------
+# Entry point for program execution
 
 # Entry point for program execution
 bub = [3, 1, 9, 0, 12, 90, 45]
@@ -56,5 +61,18 @@ bubble(bub)
 select = [3, 1, 9, 0, 12, 90, 45]
 selection(select)
 
-insert = [3, 1, 9, 0, 12, 90, 45]
-insertion(insert)
+# inArr = [3, 1, 9, 0, 12, 90, 45]
+# insertion(inArr)
+#print inArr
+
+start = time.time()
+for j in range(10): # loop 100 times
+    inArr = []
+    for i in range(7): # elements in array
+        inArr.append(random.randrange(0,100))
+    insertion(inArr)
+
+end = time.time()
+t_time =(end - start)
+print 'Insertion Sort: ', inArr
+print 'Insertion time:',t_time

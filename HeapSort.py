@@ -17,6 +17,9 @@ We only heapify first part of array because right half is only going to have chi
 Number of nodes each layer has is 2^(n-1)
 '''
 
+import time
+import random
+
 def swap (Arr, m, n):
     temp = Arr[m]
     Arr[m]= Arr[n]
@@ -47,7 +50,19 @@ def heapify(Arr, i, size):
     # print Arr
 
 
-heapArr= [3,10,5,2,6,8]
-print 'Unsorted:', heapArr
-heapSort(heapArr)
-print 'Heap Sort:', heapArr
+# heapArr= [3,10,5,2,6,8]
+# print 'Unsorted:', heapArr
+# heapSort(heapArr)
+# print 'Heap Sort:', heapArr
+
+start = time.time()
+for j in range(100): # loop 100 times
+    heapArr = []
+    for i in range(50000):  # elements in array
+        heapArr.append(random.randrange(0,1000000))
+    heapSort(heapArr)
+
+end = time.time()
+t_time =(end - start)
+print 'Heap time:',t_time
+

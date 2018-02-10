@@ -2,6 +2,11 @@
 # most of the programs use this type of sorting when we call the sort function
 # We do all the sorting in same array and we DONOT create another array
 
+import time
+import random
+import sys
+sys.setrecursionlimit(100000000)
+
 def quick_sort(Arr):
     partition_qS(Arr,0,len(Arr)-1)
 
@@ -62,13 +67,40 @@ def mergesort(Arr):
         right = mergesort(Arr[mid:])
     return merge(left, right)
 
-# ---------------- Entry point for program execution
-qS = [3, 1, 9, 0, 12, 90, 45, 65]
-print 'Unsorted Array:', qS
-quick_sort(qS)
-print 'Quick Sort:', qS
+#----------------- quick Sort
+# qS = [3, 1, 9, 0, 12, 90, 45,65]
+# quick_sort(qS)
+# print 'Quick Sort:', qS
 
-mS = [3, 1, 9, 0, 12, 90, 45, 65]
-# print 'Merge Sort:'
-mS = mergesort(mS)
-print 'Merge Sort:', mS
+#question 2b
+#
+# qstart = time.time()
+#
+# for j in range(100): # loop 100 times
+#     qS= []
+#     for i in range(50000):  # elements in array
+#         qS.append(random.randrange(0,100000))
+#     quick_sort(qS)
+#
+# qend = time.time()
+# t_time= (qend - qstart)
+# print 'Quick Sort time:',t_time
+
+
+
+# ------------------- Merge Sort
+# mS = [3, 1, 9, 0, 12, 90, 45,65]
+# mS = mergesort(mS)
+# print 'Merge Sort:',mS
+
+
+start = time.time()
+for j in range(100): # loop 100 times
+    mS = []
+    for i in range(50000): # elements in array
+        mS.append(random.randrange(0,1000000))
+    mS = mergesort(mS)
+
+end = time.time()
+t_time =(end - start)
+print 'Merge Time:',t_time
