@@ -3,6 +3,8 @@ import random
 
 # Bubble is basic sorting algorithm which sorts by
 #conparing two consecutive elements in an array
+# Space complexity: O(1)
+# Time Complexity: O(n^2)    Best: O(n)
 
 def swap(x, y):
     temp = x
@@ -19,10 +21,13 @@ def bubble(B):
             if (B[j]>B[j+1]):
                 B[j],B[j+1]=swap(B[j],B[j+1])
     print 'Bubble sort:', B
+#
+# #Selection sort first finds min value
+# # then we look in the array if we find another value less then
+# # current min we swap these values
+# Space complexity: O(1)
+# Time Complexity: O(n^2)    Best: O(n^2)
 
-#Selection sort first finds min value
-# then we look in the array if we find another value less then
-# current min we swap these values
 def selection(A):
     size = len(A)
     for i in range (size):
@@ -37,6 +42,8 @@ def selection(A):
 # comparing 2 values first select first element
 # compare if this element is greater then values in the array
 # if it is smaller then a value insert at right position
+# Space complexity: O(1)
+# Time Complexity: O(n^2)    Best: O(n)
 
 def insertion(A):
     size = len(A)
@@ -53,26 +60,25 @@ def insertion(A):
 
 #--------------------------------------------
 # Entry point for program execution
-
-# Entry point for program execution
 bub = [3, 1, 9, 0, 12, 90, 45]
 bubble(bub)
 
 select = [3, 1, 9, 0, 12, 90, 45]
 selection(select)
 
-# inArr = [3, 1, 9, 0, 12, 90, 45]
-# insertion(inArr)
-#print inArr
+inArr = [3, 1, 9, 0, 12, 90, 45]
+insertion(inArr)
+print inArr
 
+# get total time taken for insertion sort to sort x elements y times
 start = time.time()
 for j in range(10): # loop 100 times
     inArr = []
-    for i in range(7): # elements in array
-        inArr.append(random.randrange(0,100))
+    for i in range(100): # elements in array
+        inArr.append(random.randrange(0,1000))
     insertion(inArr)
 
 end = time.time()
 t_time =(end - start)
-print 'Insertion Sort: ', inArr
+# print 'Insertion Sort: ', inArr
 print 'Insertion time:',t_time

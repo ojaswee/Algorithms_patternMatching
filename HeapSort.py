@@ -15,6 +15,9 @@ We only heapify first part of array because right half is only going to have chi
     2) detach 9 and continue with remaining elements
     3) now re-create max heapify from this tree
 Number of nodes each layer has is 2^(n-1)
+
+Space complexity: O(1)
+Time Complexity: O(n log(n))
 '''
 
 import time

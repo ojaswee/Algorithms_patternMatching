@@ -1,7 +1,8 @@
 '''
 Shell sort is modification to insertion sort
 we just compare 2 elements in a gap then rearrange them
-Time complexity = O(n^2)
+Time complexity = O(n(log(n))^2)
+Space Complexity = O (1)
 '''
 
 import time

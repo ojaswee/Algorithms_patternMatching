@@ -1,6 +1,8 @@
 # Quick sort is very effective sorting technique
 # most of the programs use this type of sorting when we call the sort function
 # We do all the sorting in same array and we DONOT create another array
+# Space complexity: O(log(n))
+# Time Complexity: O(n log(n))    Worst: O(n^2)
 
 import time
 import random
@@ -36,6 +38,8 @@ def partition_qS(Arr,left, right):
 # ----------------------Merge Sort -----------------
 # in merge sort we first divide the array into individual elements
 # compare this individual items and store them in new arrays
+# Space complexity: O(n)
+# Time Complexity: O(n log(n))
 
 def merge(a,b):
     # create a new List

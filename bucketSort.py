@@ -1,5 +1,8 @@
 '''Bucket sort as we put elements in bucket we need to sort it as well
 so first get an element then insert in the appropriate place in the bucket
+n = # elements, K = # buckets
+Space complexity: O(n)
+Time Complexity: O(n^2)    Worst: O(n^2)
 '''
 
 import time

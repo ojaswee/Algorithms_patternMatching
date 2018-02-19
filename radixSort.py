@@ -2,6 +2,10 @@
 In Radix Sorting is only used to sort numbers
 First sort the number by unit digit then tens then hundreds and so on
 This soring uses single Linked List
+
+n = #of elements , K = number of digits
+Space complexity: O(n+K)
+Time Complexity: O(nK)
 '''
 from llist import sllist,sllistnode
 import time
