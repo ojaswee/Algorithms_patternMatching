@@ -33,21 +33,16 @@ In this exercise, I wanted to sort a list or an array using different techniques
     Time Complexity: O(n log(n))    Worst: O(n^2)
     
 6) Merge sort we first divide the array into individual elements
-    compare this individual item and store them in new arrays
-    
-    Space complexity: O(n)
-    
+    compare this individual item and store them in new arrays    
+    Space complexity: O(n)    
     Time Complexity: O(n log(n))   
     
 7) In Radix Sorting is only used to sort numbers
     First sort the number by unit digit then tens then hundreds and so on
     This sorting uses single Linked List
     n = #of elements, K = number of digits
-    
-    Space complexity: O(n+K)
-    
+    Space complexity: O(n+K)    
     Time Complexity: O(nK)
-    
     
 8) Heap sort is useful when we are concerned about the memory usage during sorting
     Quick and merge sort use a recursive method so they use more space then heapsort
@@ -55,14 +50,10 @@ In this exercise, I wanted to sort a list or an array using different techniques
     Max heapify has two children similar to complete binary search. First level
     has the largest element, the second level has smaller elements then level and so on
     for example:  Max heapify of  {2,8,5,3,9,1} will be
-            9
-           
-         /    \
-         
-        8      5
-        
-      /  \    /
-      
+            9 
+         /    \         
+        8      5        
+      /  \    /      
     3     2  1
     We only heapify first part of array because right half is only going to have children
       1) After this, we replace 1 with 9.
