@@ -49,12 +49,12 @@ In this exercise, I wanted to sort a list or an array using different techniques
     To do ascending heap sort we have to first create a max heapify.
     Max heapify has two children similar to complete binary search. First level
     has the largest element, the second level has smaller elements then level and so on
-    for example:  Max heapify of  {2,8,5,3,9,1} will be
-            9 
-         /    \         
-        8      5        
-      /  \    /      
-    3     2  1
+    for example:  Max heapify of  {2,8,5,3,9,1} will be  
+            9   
+         /    \           
+        8      5          
+      /  \    /        
+    3     2  1  
     We only heapify first part of array because right half is only going to have children
       1) After this, we replace 1 with 9.
       2) detach 9 and continue with remaining elements
