@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad509c12-e5b3-45ec-b038-586006a4fb4c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mergeSort.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HeapSort.py" afterPath="$PROJECT_DIR$/HeapSort.py" />
-      <change beforePath="$PROJECT_DIR$/Quick_Merge_Sort.py" afterPath="$PROJECT_DIR$/Quick_Merge_Sort.py" />
+      <change beforePath="$PROJECT_DIR$/Quick_Merge_Sort.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/bubble_selection_insertion_Sort.py" afterPath="$PROJECT_DIR$/bubble_selection_insertion_Sort.py" />
-      <change beforePath="$PROJECT_DIR$/bucketSort.py" afterPath="$PROJECT_DIR$/bucketSort.py" />
-      <change beforePath="$PROJECT_DIR$/radixSort.py" afterPath="$PROJECT_DIR$/radixSort.py" />
-      <change beforePath="$PROJECT_DIR$/shellSort.py" afterPath="$PROJECT_DIR$/shellSort.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +19,11 @@
       <file leaf-file-name="bubble_selection_insertion_Sort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubble_selection_insertion_Sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="2040">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,28 +31,40 @@
       <file leaf-file-name="bucketSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bucketSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="102">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HeapSort.py">
+      <file leaf-file-name="heapSort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heapSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="884">
+              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quick_Merge_Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quick_Merge_Sort.py">
+      <file leaf-file-name="mergeSort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mergeSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="e#238#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quickSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quickSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,18 +73,18 @@
       <file leaf-file-name="radixSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/radixSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="442">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shellSort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shellSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shellSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="612">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -109,17 +120,19 @@
         <option value="$PROJECT_DIR$/Quick_Sort.py" />
         <option value="$PROJECT_DIR$/try_bucket.py" />
         <option value="$PROJECT_DIR$/find_given_sum.py" />
-        <option value="$PROJECT_DIR$/bubble_selection_insertion_Sort.py" />
         <option value="$PROJECT_DIR$/bucketSort.py" />
         <option value="$PROJECT_DIR$/HeapSort.py" />
-        <option value="$PROJECT_DIR$/Quick_Merge_Sort.py" />
         <option value="$PROJECT_DIR$/radixSort.py" />
         <option value="$PROJECT_DIR$/shellSort.py" />
+        <option value="$PROJECT_DIR$/bubble_selection_insertion_Sort.py" />
+        <option value="$PROJECT_DIR$/Quick_Merge_Sort.py" />
+        <option value="$PROJECT_DIR$/mergeSort.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
+    <option name="x" value="-1449" />
+    <option name="y" value="-16" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -154,19 +167,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Sorting_patternMatching" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting_patternMatching" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting_an_array_using_different_methods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sorting_an_array_using_different_methods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bucketSort">
+  <component name="RunManager" selected="Python.Quick_Merge_Sort">
     <configuration name="Quick_Merge_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,19 +258,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sample_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Spark_via_PyCharm" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms_patternMatching" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Spark_via_PyCharm/sample_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mergeSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,18 +296,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bubble_selection_insertion_Sort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Quick_Merge_Sort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sample_file" />
-      <item index="3" class="java.lang.String" itemvalue="Python.try_bucket" />
-      <item index="4" class="java.lang.String" itemvalue="Python.bucketSort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.try_bucket" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bucketSort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mergeSort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Quick_Merge_Sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bucketSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.try_bucket" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bubble_selection_insertion_Sort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sample_file" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Quick_Merge_Sort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Quick_Merge_Sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mergeSort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bucketSort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.try_bucket" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bubble_selection_insertion_Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +399,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-2409" y="-9" width="2418" height="1318" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16287678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12990299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249715" sideWeight="0.50396615" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38177624" sideWeight="0.49603385" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809939" sideWeight="0.49603385" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -450,20 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bucketSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/radixSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Quick_Merge_Sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
@@ -478,7 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -492,7 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -506,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -527,7 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -541,7 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -555,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -581,56 +580,14 @@
     <entry file="file://$PROJECT_DIR$/merge_and_quick_sort.py" />
     <entry file="file://$PROJECT_DIR$/basic_sorting.py" />
     <entry file="file://$PROJECT_DIR$/merge_and_quick_sort.py" />
-    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py" />
     <entry file="file://$PROJECT_DIR$/basic_sorting.py" />
-    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpleMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py" />
+    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py" />
+    <entry file="file://$PROJECT_DIR$/simpleMatch.py" />
+    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py" />
+    <entry file="file://$PROJECT_DIR$/simpleMatch.py" />
+    <entry file="file://$PROJECT_DIR$/KMP_Algorithm.py" />
     <entry file="file://$PROJECT_DIR$/merge_and_quick_sort.py" />
     <entry file="file://$PROJECT_DIR$/basic_sorting.py" />
     <entry file="file://$PROJECT_DIR$/BFS_DFS.py" />
@@ -645,9 +602,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/try_bucket.py" />
     <entry file="file://$PROJECT_DIR$/find_given_sum.py" />
+    <entry file="file://$PROJECT_DIR$/radixSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heapSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bucketSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="102">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
@@ -655,40 +636,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bubble_selection_insertion_Sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HeapSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="2040">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Quick_Merge_Sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
+        <state relative-caret-position="1360">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/radixSort.py">
+    <entry file="file://$PROJECT_DIR$/mergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#238#249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shellSort.py">
+    <entry file="file://$PROJECT_DIR$/quickSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

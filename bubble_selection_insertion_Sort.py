@@ -1,10 +1,10 @@
 import time
 import random
 
-# Bubble is basic sorting algorithm which sorts by
-#conparing two consecutive elements in an array
-# Space complexity: O(1)
-# Time Complexity: O(n^2)    Best: O(n)
+'''Bubble Sort is basic sorting algorithm which sorts by
+    comparing two consecutive elements in an array
+    Space complexity: O(1)
+    Time Complexity: O(n^2)    Best: O(n)'''
 
 def swap(x, y):
     temp = x
@@ -23,8 +23,8 @@ def bubble(B):
     print 'Bubble sort:', B
 #
 # #Selection sort first finds min value
-# # then we look in the array if we find another value less then
-# # current min we swap these values
+# # then we look in the array if we can find another value less than
+# # current min. If we find another value to be ;ess then current min we swap these values
 # Space complexity: O(1)
 # Time Complexity: O(n^2)    Best: O(n^2)
 
