@@ -1,4 +1,4 @@
-# Sorting a list using different methods
+# Time Complexity Analysis of Sorting Algorithm
 
 In this exercise, I wanted to sort a list or an array using different techniques
 1) The bubble is basic sorting algorithm which sorts by comparing two consecutive elements in an array
